@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*»¬ÆÁ*/
+.pageup{
+    transform: translateY(-100%);
+}
+.pagedown{
+    transform: translateY(100%);
+}
+.hide{
+    display: none !important;
+}
+.pageleft{
+    transform: translateX(-100%);
+}
+.pageright{
+    transform: translateX(100%);
+}
+.page,.subpage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page p{
+    text-align: center;
+    font-size: 0.3rem;
+    color: black;
+}
+.page_1{
+    background: #083846;
+    position: relative;
+    z-index: 999;
+}
+.page_1 img:first-child{
+    width: 5rem;
+    margin: 0.2rem auto 0.8rem;
+    display: block;
+    transform: translateY(-200px);
+}
+.page_1 img:nth-of-type(2){
+    width: 3.69rem;
+    display: block;
+    margin: 0 auto 0.5rem;
+    transform: translateX(-200px);
+}
+.huadong{
+    width: 0.6rem;
+    cursor: pointer;
+    font-size: 0;
+    position: fixed;
+    left: -0.3rem;
+    bottom: 0.8rem;
+    margin-left: 50%;
+    opacity: 0;
+}
+.page_2{
+    background: #9261bf;
+
+}
+.page_2 .page1>img:first-child{
+    width: 3.17rem;
+    margin: 0.4rem auto;
+    display: block;
+    z-index: 9999;
+    transform: translateY(4rem);
+    position: relative;
+    opacity: 0;
+}
+.page_2 .page1 .java{
+    position: relative;
+    z-index: 0;
+}
+.page_2 .page1 .java img:first-child{
+    width: 4.81rem;
+    margin: 1.8rem auto;
+    display: block;
+    transform: translateY(-4rem);
+    opacity: 0;
+}
+.page_2 .page1 .java img:nth-of-type(2){
+    width: 4.82rem;
+    position: absolute;
+    top: 0.7rem;
+    left: -2.8rem;
+    margin-left: 50%;
+    z-index: 99;
+    transform: translateX(-4rem);
+    opacity: 0;
+}
+.page2 img:first-of-type{
+    width: 5.87rem;
+    margin: 1.5rem auto;
+    display: block;
+    opacity: 0;
+}
+.page2 img:nth-of-type(2){
+    width: 5.2rem;
+    margin: 1.5rem auto;
+    display: block;
+    opacity: 0;
+}
+.page_3{
+    background: orangered;
+}
+.page_3 .page1>img:first-child{
+    width: 3.17rem;
+    margin: 0.4rem auto;
+    display: block;
+    z-index: 9999;
+    transform: translateY(4rem);
+    position: relative;
+    opacity: 0;
+}
+.page_3 .page1 .java{
+    position: relative;
+    z-index: 0;
+}
+.page_3 .page1 .java img:first-child{
+    width: 4.81rem;
+    margin: 1.8rem auto;
+    display: block;
+    transform: translateY(-4rem);
+    opacity: 0;
+}
+.page_3 .page1 .java img:nth-of-type(2){
+    width: 3.45rem;
+    position: absolute;
+    top: 0.5rem;
+    left: -1.7rem;
+    margin-left: 50%;
+    z-index: 99;
+    transform: translateX(-4rem);
+    opacity: 0;
+}
+.page_4{
+    background: orange;
+}
+.page_4 .page1>img:first-child{
+    width: 3.17rem;
+    margin: 0.4rem auto;
+    display: block;
+    z-index: 9999;
+    transform: translateY(4rem);
+    position: relative;
+    opacity: 0;
+}
+.page_4 .page1 .java{
+    position: relative;
+    z-index: 0;
+}
+.page_4 .page1 .java img:first-child{
+    width: 4.81rem;
+    margin: 0.5rem auto 1.1rem;
+    display: block;
+    transform: translateY(-4rem);
+    opacity: 0;
+}
+.page_4 .page1 .java img:nth-of-type(2){
+    width: 3.45rem;
+    position: absolute;
+    top: 0.5rem;
+    left: -1.7rem;
+    margin-left: 50%;
+    z-index: 99;
+    transform: translateX(4rem);
+    opacity: 0;
+}
+.page_4 .page1 .pic{
+    width: 3.38rem;
+    margin: 0 auto 0.5rem;
+    display: block;
+}
+.page_5{
+    background: #083846;
+}
+.page_5 img:first-of-type {
+    width: 5.63rem;
+    margin: 2.3rem auto 0;
+    display: block;
+    transform: rotateX(90deg);
+    perspective-origin: 0 2.5rem;
+}
+.page_5 img:nth-of-type(2){
+    width: 5.2rem;
+    margin: 1.5rem auto 0;
+    display: block;
+    transform: rotateX(90deg);
+    perspective-origin: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
